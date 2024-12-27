@@ -1,0 +1,12 @@
+// BEGIN_INTERNALS
+/*
+MAP_ZOOM: 1.000
+LAST_COMPILE_TIME: 1561505625
+DIR: backup Music soundfx 
+AUTO_FILE_DIR: ON
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 512.1471
+WINDOW: unconscious.dm;pixelmovement.dm;player login.dm;hud.dm;combat.dm;map.dmm;HP.dmi;stam.dmi;variables.dm;Stamina.dm;interfaceui.dmf;High test.dm;player.dmi;overlayweapon.dmi;todo.dm;shock.dmi
+FILE: combat.dm
+*/
+// END_INTERNALS

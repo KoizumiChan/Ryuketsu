@@ -1,0 +1,258 @@
+macro "macro"
+	elem 
+		name = "SHIFT+West"
+		command = "ShiftWest"
+	elem 
+		name = "SHIFT+North"
+		command = "ShiftNorth"
+	elem 
+		name = "SHIFT+East"
+		command = "ShiftEast"
+	elem 
+		name = "SHIFT+South"
+		command = "ShiftSouth"
+	elem 
+		name = "A"
+	elem 
+		name = "SHIFT+A"
+		command = "ShiftWest"
+	elem 
+		name = "A+UP"
+	elem 
+		name = "D"
+	elem 
+		name = "SHIFT+D"
+		command = "ShiftEast"
+	elem 
+		name = "D+UP"
+	elem 
+		name = "S"
+	elem 
+		name = "SHIFT+S"
+		command = "ShiftSouth"
+	elem 
+		name = "S+UP"
+	elem 
+		name = "T"
+		command = "Say"
+	elem 
+		name = "W"
+	elem 
+		name = "SHIFT+W"
+		command = "ShiftNorth"
+	elem 
+		name = "W+UP"
+	elem 
+		name = "X"
+		command = "Run"
+	elem 
+		name = "Y"
+		command = "Shout"
+
+
+menu "menu"
+	elem 
+		name = "&File"
+		command = ""
+		saved-params = "is-checked"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		saved-params = "is-checked"
+	elem 
+		name = "Options"
+		command = ""
+		saved-params = "is-checked"
+	elem 
+		name = "Mute SFX"
+		command = "MuteSFX"
+		category = "Options"
+		can-check = true
+		saved-params = "is-checked"
+	elem 
+		name = "Mute Music"
+		command = "MuteMusic"
+		category = "Options"
+		can-check = true
+		saved-params = "is-checked"
+	elem 
+		name = "TestMusic"
+		command = "TestMusic"
+		category = "Options"
+		saved-params = "is-checked"
+	elem 
+		name = "TestMusic2"
+		command = "TestMusic2"
+		category = "Options"
+		saved-params = "is-checked"
+
+
+window "default"
+	elem "default"
+		type = MAIN
+		pos = 348,0
+		size = 1234x720
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		is-default = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		macro = "macro"
+		menu = "menu"
+	elem "label5"
+		type = LABEL
+		pos = 0,-4
+		size = 64x36
+		anchor1 = 0,0
+		anchor2 = 5,4
+		text-color = #ffffff
+		background-color = #000000
+		border = line
+		saved-params = ""
+		text = "HOTBAR"
+	elem "label4"
+		type = LABEL
+		pos = 0,400
+		size = 64x32
+		anchor1 = 0,56
+		anchor2 = 5,60
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "5"
+	elem "label3"
+		type = LABEL
+		pos = 0,312
+		size = 64x32
+		anchor1 = 0,43
+		anchor2 = 5,48
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "4"
+	elem "label2"
+		type = LABEL
+		pos = 0,224
+		size = 64x32
+		anchor1 = 0,31
+		anchor2 = 5,36
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "3"
+	elem "label1"
+		type = LABEL
+		pos = 0,128
+		size = 64x32
+		anchor1 = 0,18
+		anchor2 = 5,22
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "2"
+	elem "1"
+		type = LABEL
+		pos = 0,32
+		size = 64x32
+		anchor1 = 0,4
+		anchor2 = 5,9
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		text = "1"
+	elem "grid5"
+		type = GRID
+		pos = 0,432
+		size = 64x56
+		anchor1 = 0,60
+		anchor2 = 5,68
+		background-color = #000000
+		border = sunken
+		saved-params = ""
+		highlight-color = #000000
+	elem "grid4"
+		type = GRID
+		pos = 0,344
+		size = 64x56
+		anchor1 = 0,48
+		anchor2 = 5,56
+		background-color = #000000
+		border = sunken
+		saved-params = ""
+		highlight-color = #000000
+	elem "grid3"
+		type = GRID
+		pos = 0,64
+		size = 64x64
+		anchor1 = 0,9
+		anchor2 = 5,18
+		background-color = #000000
+		border = sunken
+		saved-params = ""
+		highlight-color = #000000
+	elem "grid2"
+		type = GRID
+		pos = 0,160
+		size = 64x64
+		anchor1 = 0,22
+		anchor2 = 5,31
+		background-color = #000000
+		border = sunken
+		saved-params = ""
+		highlight-color = #000000
+	elem "grid1"
+		type = GRID
+		pos = 0,256
+		size = 64x56
+		anchor1 = 0,36
+		anchor2 = 5,43
+		background-color = #000000
+		border = sunken
+		saved-params = ""
+		highlight-color = #000000
+	elem "info1"
+		type = INFO
+		pos = 1032,0
+		size = 200x488
+		anchor1 = 84,0
+		anchor2 = 100,68
+		text-color = #ffffff
+		background-color = #000000
+		saved-params = ""
+		tab-text-color = #ffffff
+		tab-background-color = #000000
+	elem "bar1"
+		type = BAR
+		pos = 0,488
+		size = 1236x10
+		anchor1 = 0,81
+		anchor2 = 100,83
+		background-color = #292929
+		saved-params = ""
+		bar-color = #000000
+		is-slider = false
+		dir = east
+		value = 100
+	elem "map1"
+		type = MAP
+		pos = 64,0
+		size = 968x488
+		anchor1 = 5,0
+		anchor2 = 84,68
+		border = line
+		saved-params = "zoom;letterbox;zoom-mode"
+	elem "output1"
+		type = OUTPUT
+		pos = 0,496
+		size = 1232x224
+		anchor1 = 0,69
+		anchor2 = 100,100
+		font-size = 15
+		text-color = #ffffff
+		background-color = #000000
+		is-default = true
+		saved-params = "max-lines"
+		legacy-size = false
+

@@ -1,0 +1,36 @@
+// DM Environment file for High test.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "Music"
+#define FILE_DIR "soundfx"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "chat verbs.dm"
+#include "combat.dm"
+#include "High test.dm"
+#include "hud.dm"
+#include "misc verbs.dm"
+#include "objtest.dm"
+#include "pixelmovement.dm"
+#include "player login.dm"
+#include "Player Names.dm"
+#include "School floor.dm"
+#include "Stamina.dm"
+#include "todo.dm"
+#include "unconscious.dm"
+#include "variables.dm"
+#include "world.dm"
+#include "interfaceui.dmf"
+#include "map.dmm"
+// END_INCLUDE
+
